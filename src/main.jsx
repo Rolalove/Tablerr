@@ -41,7 +41,6 @@ const router = createBrowserRouter(
           }
         />
       </Route>
-      <Route path="/404" element={<NotFoundPage />} />
 
       <Route path="*" element={<NotFoundPage />} />
     </Route>
