@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #F8FAFC;
+}
+.stat-item{
+    background-color:  white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    height: 128px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+}
+
